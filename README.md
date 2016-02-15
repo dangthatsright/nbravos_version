@@ -16,7 +16,7 @@ For original README, see ORIGINAL_README
 #--- Using conf/gale.conf ---
 
 2.1a. Specify files in /data/sls/scratch/nbravo/kaldi/egs/gale_arabic.complete/s5/data/test/split30/nbravo/spk2utt
-	I am unsure of what the numbers are supposed to do, particularly the _1006200_1013930 at the end of the filenames.
+	THe numbers at the end (_1006200_1013930) represent time stamps
 
 2.2a. Specify files in /data/sls/scratch/nbravo/kaldi/egs/gale_arabic.complete/s5/data/test/split30/nbravo/wav.scp
 	This uses file paths in the directory /data/sls/scratch/amali/data/GALE/LDC2013S02/gale_p2_arb_bc_speech_p1_d1/data/. So if you want to add more files, use them from this path
@@ -29,9 +29,9 @@ Note: Yes, this is nbravo's directory which may change at any point in time. And
 
 Go to conf/nutrition.conf and change
 
-2.1b. SPK2UTT path: 	/data/sls/scratch/pricem/kaldi/nutrition/data/test_amt1/split10/ <vary this number> /spk2utt
+2.1b. SPK2UTT path: 	/data/sls/scratch/pricem/kaldi/nutrition/data/test_amt1/split10/ *vary this number from 1-10* /spk2utt
 
-2.2b. WAV path:     	/data/sls/scratch/pricem/kaldi/nutrition/data/test_amt1/split10/ <put the same number> /wav.scp
+2.2b. WAV path:     	/data/sls/scratch/pricem/kaldi/nutrition/data/test_amt1/split10/ *put the same number* /wav.scp
 
 Note: This does batches of wav files. 
 
