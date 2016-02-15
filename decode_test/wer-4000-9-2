@@ -1,0 +1,4 @@
+compute-wer --text --mode=present ark:/data/sls/scratch/pricem/kaldi/nutrition/data/test_amt1/text_filtered ark,p:- 
+%WER 11.49 [ 20 / 174, 6 ins, 8 del, 6 sub ] [PARTIAL]
+%SER 34.78 [ 8 / 23 ]
+Scored 23 sentences, 238 not present in hyp.

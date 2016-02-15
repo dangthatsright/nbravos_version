@@ -1,0 +1,8 @@
+exp/
+data/
+q/
+log/
+log/q/
+*.chk
+variable_files/
+results.txt
